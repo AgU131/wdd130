@@ -35,7 +35,6 @@ p {
 }
 
 body {
-    max-width: 1500px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -56,20 +55,13 @@ h2 {
 .hero article {
     position: absolute;
     top: 10%;
+    image-orientation: right;
 }
 .hero h1 {
-    position: relative;
+    position: absolute;
 }
 .hero-image img {
     display: block;
     width: 100%;
     height: auto;
 }
-/* .hero h1 {
-    position: absolute;
-    bottom: 150px;
-    color: var(--color-primary);
-    padding: 0px;
-    text-align: center;
-    
-} */
