@@ -53,3 +53,23 @@ h2 {
     color: var(--color-primary);
 }
 
+.hero article {
+    position: absolute;
+    top: 10%;
+}
+.hero h1 {
+    position: relative;
+}
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* .hero h1 {
+    position: absolute;
+    bottom: 150px;
+    color: var(--color-primary);
+    padding: 0px;
+    text-align: center;
+    
+} */
