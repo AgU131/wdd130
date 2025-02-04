@@ -45,7 +45,6 @@ h3 {
 }
 
 footer {
-	position: fixed;  /* If removed, what happens? */
 	bottom: 0;
 	margin: 1rem;
 	border-top: 1px solid #000;

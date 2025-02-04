@@ -17,7 +17,7 @@ header {
 }
 
 p {
-    color: var(--accent1-color);
+    color: var(--color-tertiary);
     font-family: "Roboto", serif;
     font-weight: 400;
 }
@@ -48,15 +48,35 @@ h1 {
     top: 200px;
     width: 100%;
 }
+
+.hero .hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero-background {
+    width: 100%;
+    height: auto;
+}
 .hero img {
-    background-color: var(--color-secondary);
-    size-adjust: auto;
-    color: white;
+    display: block;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+.hero article {
+    position: absolute;
+    background: rgba(40, 91, 126, 0.5);
     padding: 10px;
-    text-align: center;
-    image-orientation: center;
-    font-family: "Roboto", serif;
-    font-weight: 700;
+    box-shadow: 0 0 1px #000;
+    width: auto;
+    height: 200px;
+    margin: 0 0 10px 15px;
+    bottom: 350px;
+    right: 75px;
+    left: 75px;
+    text-decoration: none;
+    color: white;
 }
 
 h2 {
