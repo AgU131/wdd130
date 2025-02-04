@@ -57,11 +57,16 @@ h2 {
     top: 10%;
     image-orientation: right;
 }
-.hero h1 {
-    position: absolute;
-}
 .hero-image img {
     display: block;
     width: 100%;
     height: auto;
+}
+.hero img {
+    position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+.hero h1 {
+    position: absolute;
 }
