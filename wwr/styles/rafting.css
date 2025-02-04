@@ -6,7 +6,7 @@
     --color-tertiary: #C7CB85;
 }
 header {
-    background-color: var(--color-secondary);
+    background-color: var(--accent1-color);
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -18,16 +18,10 @@ header {
 
 p {
     color: var(--accent1-color);
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin: 0;
-    padding: 0;
+    font-family: "Roboto", serif;
+    font-weight: 400;
 }
 
-.main-nav {
-    background-color: var(--accent1-color);
-    padding: 10px;
-}
 .main-nav a {
     color: white;
     display: inline-block;
@@ -44,29 +38,28 @@ body {
 }
 
 h1 {
-    font-weight: 00;
-    color: var(--color-primary);
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    position: absolute;
+    color: var(--accent2-color);
+    background-color: var(--color-secondary);
+    padding: 10px;
+    text-align: center;
+    top: 200px;
+    width: 100%;
 }
+.hero img {
+    background-color: var(--color-secondary);
+    size-adjust: auto;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    image-orientation: center;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+}
+
 h2 {
     font-weight: 100;
     color: var(--color-primary);
-}
-
-.hero article {
-    position: absolute;
-    top: 10%;
-    image-orientation: right;
-}
-.hero-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.hero img {
-    position: absolute;
-	bottom: 25px;
-	left: 25px;
-}
-.hero h1 {
-    position: absolute;
 }
