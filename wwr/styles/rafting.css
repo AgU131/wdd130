@@ -6,7 +6,8 @@
     --color-tertiary: #C7CB85;
 }
 
-    /* HEADER */
+
+/* HEADER */
 header {
     background-color: var(--accent1-color);
     color: white;
@@ -19,7 +20,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
-
 header nav {
     display: flex;
     /* pordria agregar el flex-wrap: wrap;
@@ -28,7 +28,6 @@ header nav {
     align-items: center;
     padding: 5px;
 }
-
 .main-nav a {
     color: white;
     display: inline-block;
@@ -49,11 +48,11 @@ body {
       "wdth" 100;
 }
 
-    /* MAIN HERO edit */
+
+/* MAIN HERO edit */
 .hero {
     position: relative;
 }
-
 .hero h1 {
     position: absolute;
     font-family: "Montserrat", serif;
@@ -96,7 +95,7 @@ h2 {
 }
 
 
-    /* HISTORY */
+/* HISTORY */
 .history h2 {
     position: relative;
     display: block;
@@ -108,6 +107,31 @@ h2 {
     grid-gap: 10px;
 }
 
+
+/* FIGURE */
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+figure img {
+  max-width: 220px;
+  max-height: 200px;
+}
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
+
+/* FOOTER */
 footer {
     display: flex;
     justify-content: space-around;
