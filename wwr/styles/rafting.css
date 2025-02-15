@@ -6,8 +6,7 @@
     --color-tertiary: #C7CB85;
 }
 
-/* HEADER */
-
+    /* HEADER */
 header {
     background-color: var(--accent1-color);
     color: white;
@@ -50,8 +49,7 @@ body {
       "wdth" 100;
 }
 
-/* MAIN HERO edit */
-
+    /* MAIN HERO edit */
 .hero {
     position: relative;
 }
@@ -98,8 +96,7 @@ h2 {
 }
 
 
-/* HISTORY */
-
+    /* HISTORY */
 .history h2 {
     position: relative;
     display: block;
