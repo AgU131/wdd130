@@ -30,7 +30,6 @@ header nav {
 }
 .main-nav a {
     color: white;
-    display: inline-block;
     padding: 10px;
 }
 
@@ -65,7 +64,6 @@ body {
     width: 100%;
 }
 .hero .hero-image {
-    display: block;
     width: 100%;
     height: auto;
 }
