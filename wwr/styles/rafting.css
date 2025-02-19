@@ -159,8 +159,28 @@ footer nav {
 
 /* CONTACT PAGE */
 
+/* COMPANY INFO */
+.company-info {
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+}
+.company-info h1 {
+    color: var(--color-primary);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin: 0;
+}
+
 /* EMPLOYESS */
-.employee-profiles {
+.employee-profiles h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.employee-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2em;
@@ -195,12 +215,16 @@ footer nav {
 
 /* CONTACT FORM */
 .contact-form {
-    background-color: var(--accent1-color);
+    background-color: var(--color-tertiary);
     border-radius: 10px;
     padding: 2em;
+    border: lightgrey solid 1px;
 }
 .form-group {
     margin-bottom: 1.5em;
+}
+.form-group p {
+    color: navy;
 }
 .form-group label {
     display: block;
@@ -225,6 +249,24 @@ footer nav {
     gap: 0.5em;
     font-weight: normal;
 }
+
+/* BUTTON */
+button[type="submit"] {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+button[type="submit"]:hover {
+    background-color: #b66d3a;
+}
+ 
 
 
 
