@@ -129,17 +129,18 @@ h2 {
     grid-column: 1 / -1;
     text-align: center;
 }
-.adventure figure img {
+.adventures figure img {
     max-width: 220px;
     max-height: 220px;
 }
-.adventure figcaption {
+.adventures figcaption {
   background-color: #222;
   color: #fff;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
 }
+
 
 /* SECTION */
 section {
