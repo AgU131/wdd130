@@ -109,7 +109,7 @@ h2 {
 /* FIGURE */
 figure {
   border: thin #c0c0c0 solid;
-  display: flex;
+  display: grid;
   flex-flow: column;
   padding: 5px;
   max-width: 220px;
